@@ -1,0 +1,58 @@
+About Avi Kumar Talaviya:
+Avikumar Talaviya is a data science and machine learning specialist with hands-on experience in building and deploying end-to-end AI solutions. He has a strong background in data analysis, machine learning modeling, and cloud-based deployment. Avikumar excels in handling structured and unstructured data using SQL and NoSQL databases and is well-versed in the complete machine learning lifecycle, from data preprocessing to model deployment.
+
+He brings deep technical expertise in traditional machine learning algorithms and modern AI approaches, including large language models and retrieval-augmented generation (RAG) techniques. His work combines analytical thinking with practical implementation, helping solve real-world problems using data-driven solutions.
+
+Work Experience:
+Tops Technologies Pvt. Ltd. Surat
+Data analytics training specialist September 2024 – Present
+• Implemented comprehensive data analytics tools such as Excel, PowerBI, Python, Pandas for analytical purpose
+• Prepared data analytics stack methodology for learners from industries and freshers alike.
+Omdena Local Chapter Mumbai
+Data science project lead March 2023 – May 2023
+• Led the AQI monitoring and prediction project, leading 25+ members to develop this project from the ground up.
+• Performed exploratory data analysis to find factors behind the high AQI rate in the Mumbai region and presented the insight in
+team meetings
+• Developed a forecasting model to predict AQI in Mumbai with 80%+ RMSE.
+The Machine Learning Company Pune
+Data science trainee Nov- 2022 – Feb-2023
+• Worked on a wide blueberry prediction in agriculture crop prediction project using machine learning frameworks
+• Performed exploratory data analysis for a road traffic prediction project using Matplotlib, seaborn and python
+• Archived an F1 score of 88% for the road traffic severity project
+Career Goal:
+Avi's career goal is to leverage their expertise in AI and data science to drive meaningful innovation and help create solutions that drive the economies and society forward.
+
+Skills: 
+AI, Data Science, Cloud Computing, Python, SQL, Databases, NLP, LLMs, Deep Learning Algorithms
+
+Certification:
+ Level Up SQL at LinkedIn Learning
+• Functional Programming with Python at LinkedIn Learning
+• Programming Foundations: Data Structures at LinkedIn Learning
+• Data analysis and visualization job simulation using Python, Excel and Tableau – Accenture
+Achievements:
+Spearheaded AI projects at IBM, resulting in a 30% increase in user engagement.
+Utilized IBM's watsonx service to help over 1000 companies from various domains automate their HR processes, from hiring to onboarding, contributing to a 100% positive feedback rate from companies.
+
+Contact:
+LinkedIn: https://www.linkedin.com/in/avi-kumar-talaviya-739153147/
+Email: avikumart@arizona.edu
+Location: Tucson, Arizona
+
+Interests and Hobbies:
+Avi's passion for technology extends into leisure hours, where they delve into the cutting-edge realm of GenAI, continuously pushing the boundaries of what can be achieved in various projects.
+
+Portfolio:
+Road Traffic Severity Project – Repo Link
+• Analysed data using Dabl and Pandas library
+• Treated missing values and encoded categorical values along with chi2 statistical tests
+• Performed principal component analysis to reduce the dimensionality of the dataset
+Cyberbullying detection using NLP – Repo link
+• Performed text data pre-processing and data cleaning to extract insights from data
+• Implemented parts of speech tagging and topic modelling to identify topics in
+
+Availability:
+Avi Kumar Talaviya is actively seeking new opportunities and is ready to start immediately.
+
+References:
+References are available upon request.
