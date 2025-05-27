@@ -42,10 +42,6 @@
         }
       },
       {
-        "media": {
-          "url": "https://github.com/avikumart/Time-series-analysis-and-forecasting",
-          "caption": "github/innerdoc (<a target=\"_blank\" href='https://github.com/avikumart/Time-series-analysis-and-forecasting'>credits</a>)"
-        },
         "start_date": {
           "year": "2022",
           "month":"9"
