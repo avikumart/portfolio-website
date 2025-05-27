@@ -11,7 +11,10 @@ info = {
    "Country":"United States",
    "University": "University of Arizona",
    "Degree": "Master of Science in Information Science with Specialization in Machine Learning",
-   "Photo":"""<a href="https://www.linkedin.com/in/avi-kumar-talaviya-739153147/"> <img src="https://mypfp.s3.ap-south-1.amazonaws.com/picofme+(2).png" alt="LinkedIn Profile" width="150" style="border-radius: 50%;"></a>""",
+   "Photo":"""<a href="https://www.linkedin.com/in/avi-kumar-talaviya-739153147/"> 
+             <img src="https://mypfp.s3.ap-south-1.amazonaws.com/picofme+(2).png" alt="LinkedIn Profile" width="150" style="border-radius: 50%;">
+             </a>
+             """,
    "Email": "avikumart@arizona.edu"
 }
 
