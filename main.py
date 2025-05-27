@@ -7,7 +7,7 @@ import streamlit.components.v1 as components
 from constant import *
 from PIL import Image
 
-st.set_page_config(page_title='Template' ,layout="wide",page_icon='👧🏻')
+st.set_page_config(page_title='Template' ,layout="wide",page_icon='👨🏻‍💻')
 
 # -----------------  chatbot  ----------------- #
 pronoun = info["Pronoun"]

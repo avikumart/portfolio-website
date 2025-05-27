@@ -11,7 +11,7 @@ info = {
    "Country":"United States",
    "University": "University of Arizona",
    "Degree": "Master of Science in Information Science with Specialization in Machine Learning",
-   "Photo":"""<a href=\"https://www.linkedin.com/in/avi-kumar-talaviya-739153147/\"><img src=\"https://drive.google.com/file/d/1Omepu8ffHjnVK0kU_HOLrqg9DzhyJxUM/view?usp=sharing" width=\"200\"   alt=\"Profile\" title=\"Profile\"></a>""",
+   "Photo":"""<a href=\"https://www.linkedin.com/in/avi-kumar-talaviya-739153147/\"><img src=\"https://mypfp.s3.ap-south-1.amazonaws.com/-mckof1.jpg" width=\"200\"   alt=\"Profile\" title=\"Profile\"></a>""",
    "Email": "avikumart@arizona.edu"
 }
 
