@@ -7,8 +7,8 @@
           "credit": ""
         },
         "text": {
-          "headline": "Welcome to<br>Streamlit Timeline",
-          "text": "<p>A Streamlit Timeline component by integrating TimelineJS from Knightlab</p>"
+          "headline": "Welcome to<br>My Timeline",
+          "text": "<p>A brief timeline of my career and projects I undertook during my professional journey.</p>"
         }
     },
     "events": [

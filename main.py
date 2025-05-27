@@ -63,26 +63,31 @@ with col2:
 
 # ----------------- skillset ----------------- #
 with st.container():
-    st.subheader('⚒️ Skills')
-    col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
+    st.subheader("⚒️ Technical Skills")
+
+    col1, col2 = st.columns(2)
     with col1:
-        st_lottie(python_lottie, height=70,width=70, key="python", speed=2.5)
+        st.markdown("**👨‍💻 Programming Languages**")
+        st.markdown("- Python 🐍")
+        st.markdown("- SQL 🗃️")
+        st.markdown("- R 📊")
+
+        st.markdown("**📚 ML/DL Frameworks**")
+        st.markdown("- Scikit-learn")
+        st.markdown("- TensorFlow")
+        st.markdown("- Keras")
+        st.markdown("- PyTorch")
+
     with col2:
-        st_lottie(java_lottie, height=70,width=70, key="java", speed=4)
-    with col3:
-        st_lottie(my_sql_lottie,height=70,width=70, key="mysql", speed=2.5)
-    with col4:
-        st_lottie(git_lottie,height=70,width=70, key="git", speed=2.5)
-    with col1:
-        st_lottie(github_lottie,height=50,width=50, key="github", speed=2.5)
-    with col2:
-        st_lottie(docker_lottie,height=70,width=70, key="docker", speed=2.5)
-    with col3:
-        st_lottie(figma_lottie,height=50,width=50, key="figma", speed=2.5)
-    with col4:
-        st_lottie(js_lottie,height=50,width=50, key="js", speed=1)
-    
-    
+        st.markdown("**🛠️ Tools & Platforms**")
+        st.markdown("- Jupyter Notebook / PyCharm")
+        st.markdown("- Git & GitHub")
+        st.markdown("- Power BI / Excel / Tableau")
+
+        st.markdown("**☁️ Cloud & Deployment**")
+        st.markdown("- AWS (S3, Lambda, EC2)")
+        st.markdown("- Streamlit / Flask")
+        st.markdown("- Docker")
 # ----------------- timeline ----------------- #
 with st.container():
     st.markdown("""""")
