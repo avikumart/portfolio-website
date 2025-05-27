@@ -7,7 +7,7 @@
           "credit": ""
         },
         "text": {
-          "headline": "Welcome to<br>My Timeline",
+          "headline": "Welcome to<br>My Carreer Timeline",
           "text": "<p>A brief timeline of my career and projects I undertook during my professional journey.</p>"
         }
     },
@@ -43,16 +43,20 @@
       },
       {
         "media": {
-          "url": "https://github.com/innerdoc/streamlit-timeline/raw/main/component-logo.png",
-          "caption": "github/innerdoc (<a target=\"_blank\" href='https://www.github.com/innerdoc/'>credits</a>)"
+          "url": "https://github.com/avikumart/Time-series-analysis-and-forecasting",
+          "caption": "github/innerdoc (<a target=\"_blank\" href='https://github.com/avikumart/Time-series-analysis-and-forecasting'>credits</a>)"
         },
         "start_date": {
-          "year": "2021",
-          "month":"2"
+          "year": "2022",
+          "month":"9"
         },
         "text": {
-          "headline": "Streamlit TimelineJS component",
-          "text": "Started with a demo on https://www.innerdoc.com/nlp-timeline/ . <br>Then made a <a href='https://github.com/innerdoc/streamlit-timeline'>Streamlit component</a> of it. <br>Then made a <a href='https://pypi.org/project/streamlit-timeline/'>PyPi package</a> for it."
+          "headline": "Time-series analysis and forecasting",
+          "text": "<p>Time series analysis is a statistical technique that deals with time series data, or trend analysis. It involves methods for analyzing time series data in order to extract meaningful statistics and other characteristics of the data.</p>"
+        },
+        "end_date": {
+          "year": "2022",
+          "month":"10"
         }
       }
     ]

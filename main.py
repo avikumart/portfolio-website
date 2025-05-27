@@ -70,24 +70,30 @@ with st.container():
         st.markdown("**👨‍💻 Programming Languages**")
         st.markdown("- Python 🐍")
         st.markdown("- SQL 🗃️")
-        st.markdown("- R 📊")
 
         st.markdown("**📚 ML/DL Frameworks**")
         st.markdown("- Scikit-learn")
         st.markdown("- TensorFlow")
         st.markdown("- Keras")
         st.markdown("- PyTorch")
+        st.markdown("- Hugging Face Transformers")
+        st.markdown("- LangChain")
+        st.markdown("- LlamaIndex")
+        st.markdown("- statsmodels")
 
     with col2:
         st.markdown("**🛠️ Tools & Platforms**")
         st.markdown("- Jupyter Notebook / PyCharm")
         st.markdown("- Git & GitHub")
         st.markdown("- Power BI / Excel / Tableau")
+        st.markdown("- VScode")
 
         st.markdown("**☁️ Cloud & Deployment**")
         st.markdown("- AWS (S3, Lambda, EC2)")
         st.markdown("- Streamlit / Flask")
         st.markdown("- Docker")
+
+        
 # ----------------- timeline ----------------- #
 with st.container():
     st.markdown("""""")
