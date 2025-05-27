@@ -103,8 +103,8 @@ with st.container():
     with col1:
         with st.expander('Display my latest posts'):
             components.html(embed_rss['rss'],height=400)
-            
-        st.markdown(""" <a href={} > <em>🔗 access to the link </a>""".format(info['Medium']), unsafe_allow_html=True)
+
+        st.markdown(f"""<a href="{info['Medium']}" target="_blank">🔗 Access the link</a>""", unsafe_allow_html=True)
 
 # -----------------  endorsement  ----------------- #
 with st.container():
