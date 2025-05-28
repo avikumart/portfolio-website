@@ -13,8 +13,12 @@ st.set_page_config(page_title='Template' ,layout="wide",page_icon='👨🏻‍�
 pronoun = info["Pronoun"]
 name = info["Name"]
 # -----------------  loading assets  ----------------- #
-st.sidebar.markdown(info['Photo'],unsafe_allow_html=True)
-    
+st.sidebar.markdown(f"""<a href="{info['LinkedIn']}" target="_blank">🔗 {info['Name']}</a>""", unsafe_allow_html=True)
+st.sidebar.markdown(f"""<a href="{info['GitHub']}" target="_blank">🔗 GitHub</a>""", unsafe_allow_html=True)
+
+image = Image.open("images/-mckof1.jpg")
+st.sidebar.image(image, caption="Avikumar Talaviya", width=150)
+
 def load_lottieurl(url: str):
     r = requests.get(url)
     if r.status_code != 200:
@@ -87,10 +91,12 @@ with st.container():
         st.markdown("- Git & GitHub")
         st.markdown("- Power BI / Excel / Tableau")
         st.markdown("- VScode")
+        st.markdown("- MLflow")
 
         st.markdown("**☁️ Cloud & Deployment**")
         st.markdown("- AWS (S3, Lambda, EC2)")
         st.markdown("- Streamlit / Flask")
+        st.markdown("- Prefect orchestrator")
         st.markdown("- Docker")
 
         
