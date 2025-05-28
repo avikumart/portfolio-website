@@ -14,16 +14,20 @@
     "events": [
       {
         "media": {
-          "url": "https://vimeo.com/143407878",
-          "caption": "How to Use TimelineJS (<a target=\"_blank\" href='https://timeline.knightlab.com/'>credits</a>)"
+          "url": "https://www.linkedin.com/company/tops-technologies/",
+          "caption": "tops tech role (<a target=\"_blank\" href='https://www.linkedin.com/in/avi-kumar-talaviya-739153147/'>credits</a>)"
         },
         "start_date": {
-          "year": "2016",
-          "month":"1"
+          "year": "2024",
+          "month":"9"
+        },
+        "end_date": {
+          "year": "2025",
+          "month":"4"
         },
         "text": {
-          "headline": "TimelineJS<br>Easy-to-make, beautiful timelines.",
-          "text": "<p>TimelineJS is a populair tool from Knightlab. It has been used by more than 250,000 people to tell stories seen hundreds of millions of times, and is available in more than sixty languages. </p>"
+          "headline": "Data Science Specialist<br>Tops technologies.",
+          "text": "<p>Worked with wide range of data analytics tools such as PowerBI, SQL, MySQL, Python and it's libraries to develop and present data insights.</p>"
         }
       },
       {

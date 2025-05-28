@@ -1,5 +1,6 @@
 import streamlit as st
 from PIL import Image
+from constant import info
 from constant import *
 
 def local_css(file_name):
@@ -9,8 +10,8 @@ def local_css(file_name):
 local_css("style/style.css")
 
 # -----------------  loading assets  ----------------- #
-st.sidebar.markdown(f"""<a href="{info['LinkedIn']}" target="_blank">🔗 {info['Name']}</a>""", unsafe_allow_html=True)
-st.sidebar.markdown(f"""<a href="{info['GitHub']}" target="_blank">🔗 GitHub</a>""", unsafe_allow_html=True)
+st.sidebar.markdown(f"""<a href="{info['LinkedIn']}" target="_blank">🔗 Linkedin: {info['Full_Name']}</a>""", unsafe_allow_html=True)
+st.sidebar.markdown(f"""<a href="{info['GitHub']}" target="_blank">🔗 GitHub Profile</a>""", unsafe_allow_html=True)
 
 image = Image.open("images/-mckof1.jpg")
 st.sidebar.image(image, caption="Avikumar Talaviya", width=150)

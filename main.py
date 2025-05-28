@@ -7,14 +7,14 @@ import streamlit.components.v1 as components
 from constant import *
 from PIL import Image
 
-st.set_page_config(page_title='Template' ,layout="wide",page_icon='👨🏻‍💻')
+st.set_page_config(page_title='Personal website' ,layout="wide",page_icon='👨🏻‍💻')
 
 # -----------------  chatbot  ----------------- #
 pronoun = info["Pronoun"]
 name = info["Name"]
 # -----------------  loading assets  ----------------- #
-st.sidebar.markdown(f"""<a href="{info['LinkedIn']}" target="_blank">🔗 {info['Name']}</a>""", unsafe_allow_html=True)
-st.sidebar.markdown(f"""<a href="{info['GitHub']}" target="_blank">🔗 GitHub</a>""", unsafe_allow_html=True)
+st.sidebar.markdown(f"""<a href="{info['LinkedIn']}" target="_blank">🔗 Linkedin: {info['Full_Name']}</a>""", unsafe_allow_html=True)
+st.sidebar.markdown(f"""<a href="{info['GitHub']}" target="_blank">🔗 GitHub Profile</a>""", unsafe_allow_html=True)
 
 image = Image.open("images/-mckof1.jpg")
 st.sidebar.image(image, caption="Avikumar Talaviya", width=150)
@@ -111,6 +111,22 @@ with st.container():
 
     # render timeline
     timeline(data, height=400)
+
+# ----------------- github feed ----------------- #
+with st.container():
+    st.markdown("""""")
+    st.subheader('💻 GitHub Activity')
+    col1, col2 = st.columns([0.95, 0.05])
+    with col1:
+        st.markdown("**Latest GitHub Activity**")
+        st.markdown("This section displays my latest GitHub activity, including commits, pull requests, and issues.")
+        github_user = info["gh_username"]  # Replace with your GitHub username
+        github_rss = f"https://github.com/{github_user}.atom"
+
+        github_embed_html = f"""
+        <iframe src="https://rss.bloople.net/?url={github_rss}" width="100%" height="400"></iframe>
+        """
+        components.html(github_embed_html, height=400, scrolling=True)
     
 # ----------------- medium ----------------- #
 with st.container():

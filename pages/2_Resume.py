@@ -2,6 +2,10 @@ import streamlit as st
 import base64
 from PIL import Image
 from constant import *
+import streamlit.components.v1 as components
+
+
+st.set_page_config(page_title='Resume', layout="wide", page_icon='📄')
 
 def local_css(file_name):
     with open(file_name) as f:
@@ -10,18 +14,20 @@ def local_css(file_name):
 local_css("style/style.css")
 
 # -----------------  loading assets  ----------------- #
-st.sidebar.markdown(f"""<a href="{info['LinkedIn']}" target="_blank">🔗 {info['Name']}</a>""", unsafe_allow_html=True)
-st.sidebar.markdown(f"""<a href="{info['GitHub']}" target="_blank">🔗 GitHub</a>""", unsafe_allow_html=True)
+st.sidebar.markdown(f"""<a href="{info['LinkedIn']}" target="_blank">🔗 Linkedin: {info['Full_Name']}</a>""", unsafe_allow_html=True)
+st.sidebar.markdown(f"""<a href="{info['GitHub']}" target="_blank">🔗 GitHub Profile</a>""", unsafe_allow_html=True)
 
 image = Image.open("images/-mckof1.jpg")
 st.sidebar.image(image, caption="Avikumar Talaviya", width=150)
 
 st.title("📝 Resume")
 
-st.write("[Click here if it's blocked by your browser](https://cognitiveclass.ai/)")
+st.write("[Click here if it's blocked by your browser](https://drive.google.com/file/d/1Bl8vvTCM8K-P7OKkM0zvLiXt8ydOSndB/view?usp=sharing)")
 
-with open("images/resume.pdf","rb") as f:
-      base64_pdf = base64.b64encode(f.read()).decode('utf-8')
-      pdf_display = F'<iframe src="data:application/pdf;base64,{base64_pdf}" width="1000mm" height="1000mm" type="application/pdf"></iframe>'
-      st.markdown(pdf_display, unsafe_allow_html=True)
-  
+pdf_url = f"https://drive.google.com/file/d/1Bl8vvTCM8K-P7OKkM0zvLiXt8ydOSndB/view?usp=sharing"
+
+components.html(
+    f'<iframe src="{pdf_url}" width="100%" height="600"></iframe>',
+    height=600,
+    scrolling=True
+)
