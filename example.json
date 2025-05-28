@@ -13,10 +13,6 @@
     },
     "events": [
       {
-        "media": {
-          "url": "https://www.linkedin.com/company/tops-technologies/",
-          "caption": "tops tech role (<a target=\"_blank\" href='https://www.linkedin.com/in/avi-kumar-talaviya-739153147/'>credits</a>)"
-        },
         "start_date": {
           "year": "2024",
           "month":"9"
@@ -32,17 +28,16 @@
       },
       {
         "media": {
-          "url": "https://www.youtube.com/watch?v=CmSKVW1v0xM",
-          "caption": "Streamlit Components (<a target=\"_blank\" href='https://streamlit.io/'>credits</a>)"
+          "url": "https://user-images.githubusercontent.com/88608935/227700373-b30eee6f-4437-474d-81b8-f1b48aeca472.png",
+          "caption": "Site energy consumption (<a target=\"_blank\" href='https://github.com/avikumart/Site-Energy-Intensity-Prediction-Project?tab=readme-ov-file'>credits</a>)"
         },
         "start_date": {
-          "year": "2020",
-          "month":"7",
-          "day":"13"
+          "year": "2022",
+          "month":"5"
         },
         "text": {
-          "headline": "Streamlit Components<br>version 0.63.0",
-          "text": "Streamlit lets you turn data scripts into sharable web apps in minutes, not weeks. It's all Python, open-source, and free! And once you've created an app you can use our free sharing platform to deploy, manage, and share your app with the world."
+          "headline": "Site-Energy-Intensity-Prediction-Project",
+          "text": "<p>Developed a machine learning model to predict energy consumption of a site based on various parameters. The project involved data cleaning, feature engineering, model selection, and evaluation.</p>"
         }
       },
       {
