@@ -120,7 +120,7 @@ with st.container():
     with col1:
         st.markdown("**Latest GitHub Activity**")
         st.markdown("This section displays my latest GitHub activity, including commits, pull requests, and issues.")
-        github_user = info["gh_username"]  # Replace with your GitHub username
+        github_user = "avikumart"  # Replace with your GitHub username
         github_rss = f"https://github.com/{github_user}.atom"
 
         github_embed_html = f"""
