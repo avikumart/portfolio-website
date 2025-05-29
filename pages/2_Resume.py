@@ -20,7 +20,6 @@ st.sidebar.markdown(f"""<a href="{info['Kaggle']}" target="_blank">🔗 Kaggle P
 st.sidebar.markdown(f"""<a href="{info['X']}" target="_blank">🔗 X Profile</a>""", unsafe_allow_html=True)
 
 
-
 image = Image.open("images/-mckof1.jpg")
 st.sidebar.image(image, caption="Avikumar Talaviya", width=150)
 
@@ -30,4 +29,8 @@ st.write("[Click here if it's blocked by your browser](https://drive.google.com/
 
 pdf_url = f"https://mypfp.s3.ap-south-1.amazonaws.com/Resume+-+Avi+Kumar+Talaviya.pdf"
 
-components.iframe(pdf_url, width="100%", height="600")
+components.html(
+    f'<iframe src="{pdf_url}" width="100%" height="600"></iframe>',
+    height=600,
+    scrolling=True
+)

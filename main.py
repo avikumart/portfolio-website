@@ -81,10 +81,13 @@ with st.container():
         st.markdown(f"  {i}")
 
 # ----------------- currently learning ------------- #
-with st.expander("📚 Currently Learning"):
-    st.markdown("Designing Machine Learning Systems by Huyen")
-    st.markdown("Pytorch ML development")
-    st.markdown("LLM applications")
+with st.container():
+    col1, _ = st.columns([0.95, 0.05])
+    with col1:
+        with st.expander("📚 Currently Learning"):
+            st.markdown("Designing Machine Learning Systems by Huyen")
+            st.markdown("Pytorch ML development")
+            st.markdown("LLM applications")
 
 
 # ----------------- skillset ----------------- #
