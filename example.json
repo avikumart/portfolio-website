@@ -53,6 +53,52 @@
           "year": "2022",
           "month":"10"
         }
+      },
+      {
+        "media":{
+          "url": "https://www.drupal.org/files/ua_stack_rgb_0.png",
+          "caption": "MS at UoA"
+        },
+        "start_date":{
+            "year" : "2024",
+            "month":"7"
+          },
+        "end_date":{
+            "year": "2026",
+            "month":"5"
+          },
+        "text":{
+          "headline": "Master of Science - MS: Information Science with Specialization in Machine Learning",
+          "text": "Master's degree with specialisation in Machine learning with coursework in data sciences, neural networks, machine learning, applied natural language processing and advanced transformer technologies"
+        }
+      },
+      {
+        "start_date":{
+          "year":"2023",
+          "month":"1"
+        },
+        "end_date":{
+          "year":"2023",
+          "month":"9"
+        },
+        "text":{
+          "headline":"Project title: Monitoring and Predicting Air Quality Using Machine Learning",
+          "text":"Led the project of 25+ members to develop an air quality prediction project. Helped to analyze the time-series data and data pre-processing for machine learning modelling.Worked on AWS cloud services to collect data from public APIs using the lambda function and store it in S3 buckets."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2022",
+          "month":"9"
+        },
+        "end_date":{
+          "year":"2022",
+          "month":"12"
+        },
+        "text":{
+          "headline":"Jr. Machine Learning Engineer",
+          "text":"<p>- Developed Decision Tree model to predict high-risk patients as per project objective. - Performed SMOTE upsampling to reduce imbalance in the dataset. - Developed training and ranking of instances of python scripts at the backend. - K-means clustering grouped younger women and older women in separate groups, Clustering helped to distinguish between younger and older patients. - Merged dataset archived with a Recall of 83%.</p>"
+        }
       }
     ]
 }

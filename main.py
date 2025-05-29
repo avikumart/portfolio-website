@@ -12,9 +12,13 @@ st.set_page_config(page_title='Personal website' ,layout="wide",page_icon='👨�
 # -----------------  chatbot  ----------------- #
 pronoun = info["Pronoun"]
 name = info["Name"]
+
 # -----------------  loading assets  ----------------- #
 st.sidebar.markdown(f"""<a href="{info['LinkedIn']}" target="_blank">🔗 Linkedin: {info['Full_Name']}</a>""", unsafe_allow_html=True)
 st.sidebar.markdown(f"""<a href="{info['GitHub']}" target="_blank">🔗 GitHub Profile</a>""", unsafe_allow_html=True)
+# kaggle and X acount links
+st.sidebar.markdown(f"""<a href="{info['Kaggle']}" target="_blank">🔗 Kaggle Profile</a>""", unsafe_allow_html=True)
+st.sidebar.markdown(f"""<a href="{info['X']}" target="_blank">🔗 X Profile</a>""", unsafe_allow_html=True)
 
 image = Image.open("images/-mckof1.jpg")
 st.sidebar.image(image, caption="Avikumar Talaviya", width=150)
@@ -63,7 +67,25 @@ with col1:
     
 with col2:
     st_lottie(lottie_gif, height=280, key="data")
-        
+
+# ----------------- current interests ----------------- #
+with st.container():
+    st.markdown("""""")
+    st.subheader("🔍 Current Interests")
+    
+    inerests = ["- Machine Learning Systems",
+                "- Large Language Models (LLMs)",
+                "- Data Engineering",
+                "- MLOps"]
+    for i in inerests:
+        st.markdown(f"  {i}")
+
+# ----------------- currently learning ------------- #
+with st.expander("📚 Current Learning"):
+    st.markdown("Designing Machine Learning Systems by Huyen")
+    st.markdown("Pytorch ML development")
+    st.markdown("LLM applications")
+
 
 # ----------------- skillset ----------------- #
 with st.container():
@@ -146,7 +168,7 @@ with st.container():
     # In the first column (col1)        
     with col1:
         # Add a subheader to introduce the coworker endorsement slideshow
-        st.subheader("✍️ Coworker Endorsements")
+        st.subheader("👨🏼‍💼 Coworker Endorsements")
         # Embed an HTML component to display the slideshow
         components.html(
         f"""
