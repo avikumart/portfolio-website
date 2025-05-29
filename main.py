@@ -77,8 +77,15 @@ with st.container():
                 "- Large Language Models (LLMs)",
                 "- Data Engineering",
                 "- MLOps"]
-    for i in inerests:
-        st.markdown(f"  {i}")
+    col1, col2 = st.columns(2)
+    with col1:
+        st.markdown("**🌟 Key Areas of Focus**")
+        for interest in inerests[:2]:
+            st.markdown(interest)
+    with col2:
+        st.markdown("**🌟 Key Areas of Focus**")
+        for interest in inerests[2:]:
+            st.markdown(interest)
 
 # ----------------- currently learning ------------- #
 with st.container():
