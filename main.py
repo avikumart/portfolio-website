@@ -81,7 +81,7 @@ with st.container():
         st.markdown(f"  {i}")
 
 # ----------------- currently learning ------------- #
-with st.expander("📚 Current Learning"):
+with st.expander("📚 Currently Learning"):
     st.markdown("Designing Machine Learning Systems by Huyen")
     st.markdown("Pytorch ML development")
     st.markdown("LLM applications")

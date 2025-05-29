@@ -30,8 +30,4 @@ st.write("[Click here if it's blocked by your browser](https://drive.google.com/
 
 pdf_url = f"https://mypfp.s3.ap-south-1.amazonaws.com/Resume+-+Avi+Kumar+Talaviya.pdf"
 
-components.html(
-    f'<iframe src="{pdf_url}" width="100%" height="600"></iframe>',
-    height=600,
-    scrolling=True
-)
+components.iframe(pdf_url, width="100%", height="600")
