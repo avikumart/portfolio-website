@@ -31,8 +31,8 @@ st.write("[Click here if it's blocked by your browser](https://drive.google.com/
 
 pdf_url = f"https://mypfp.s3.ap-south-1.amazonaws.com/Resume+-+Avi+Kumar+Talaviya.pdf"
 
-with pdf_url as pdf_file:
-    pdf_data = pdf_file.read()
-    b64_pdf = base64.b64encode(pdf_data).decode('utf-8')
-    pdf_display = f'<iframe src="data:application/pdf;base64,{b64_pdf}" width="100%" height="600px"></iframe>'
-    components.html(pdf_display, height=600, scrolling=True)
+# render the PDF in an iframe
+components.html(
+    f'<iframe src="{pdf_url}" width="100%" height="600" type="application/pdf"></iframe>',
+    height=600
+)
