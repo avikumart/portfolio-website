@@ -130,6 +130,7 @@ with st.container():
         st.markdown("- Streamlit / Flask")
         st.markdown("- Prefect orchestrator")
         st.markdown("- Docker")
+        st.markdown("- GitHub Actions")
 
         
 # ----------------- timeline ----------------- #

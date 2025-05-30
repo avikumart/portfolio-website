@@ -4,5 +4,5 @@ streamlit
 streamlit_lottie
 streamlit_timeline
 nltk
-sentence_transformers
-
+pytest
+pdfreader
