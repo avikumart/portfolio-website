@@ -126,7 +126,7 @@ with st.container():
         st.markdown("- MLflow")
 
         st.markdown("**☁️ Cloud & Deployment**")
-        st.markdown("- AWS (S3, Lambda, EC2)")
+        st.markdown("- AWS (S3, Lambda, EC2, ECR)")
         st.markdown("- Streamlit / Flask")
         st.markdown("- Prefect orchestrator")
         st.markdown("- Docker")
