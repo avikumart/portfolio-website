@@ -5,6 +5,7 @@ from streamlit_timeline import timeline
 import streamlit.components.v1 as components
 #from llama_index import GPTVectorStoreIndex, SimpleDirectoryReader, LLMPredictor, ServiceContext
 from constant import *
+from projects import *
 from PIL import Image
 
 st.set_page_config(page_title='Personal website' ,layout="wide",page_icon='👨🏻‍💻')
@@ -160,7 +161,21 @@ with st.container():
         <iframe src="https://rss.bloople.net/?url={github_rss}" width="100%" height="400"></iframe>
         """
         components.html(github_embed_html, height=400, scrolling=True)
-    
+
+# -----------------  projects  ----------------- #
+with st.container():
+    st.markdown("""""")
+    st.subheader("🚀 Projects")
+    col1, col2 = st.columns([0.95, 0.05])
+    with col1:
+        st.markdown("This section showcases some of my projects, including their descriptions and links to the repositories.")
+        for project in projects:
+            with st.expander(project["title"], expanded=True):
+                st.markdown(f"**Description:** {project['description']}")
+                st.markdown(f"**Tools Used:** {', '.join(project['tools'])}")
+                st.markdown(f"[🔗 View Project]({project['link']})")  
+
+
 # ----------------- medium ----------------- #
 with st.container():
     st.markdown("""""")
