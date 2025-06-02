@@ -5,7 +5,7 @@ from streamlit_timeline import timeline
 import streamlit.components.v1 as components
 #from llama_index import GPTVectorStoreIndex, SimpleDirectoryReader, LLMPredictor, ServiceContext
 from constant import *
-from projects import projects
+from projects_dict import projects
 from PIL import Image
 
 st.set_page_config(page_title='Personal website' ,layout="wide",page_icon='👨🏻‍💻')
