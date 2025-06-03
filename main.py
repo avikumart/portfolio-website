@@ -176,6 +176,7 @@ with st.container():
                 st.markdown(f"[🔗 View Project]({project['link']})")  
 
 
+
 # ----------------- medium ----------------- #
 with st.container():
     st.markdown("""""")
