@@ -10,5 +10,11 @@ projects = [
             "description": "A dashboard to visualize and analyze methane emissions data, providing insights into environmental impact.",
             "link": "https://github.com/avikumart/Methane_SQL-Data-analysis-and-Dashboarding/tree/main",
             "tools": ["Python", "SQL", "MySQL","Dash", "Plotly", "Pandas", "NumPy", "GitHub","Streamlit"]
+            },
+            {
+            "title": "Poisonous Mushroom Classification",
+            "description": "A machine learning API project to classify mushrooms as poisonous or edible based on various features.",
+            "link": "https://github.com/avikumart/Poisonous-Mushroom-Prediction-API-project",
+            "tools": ["Python", "FastAPI", "Scikit-learn", "Pandas", "NumPy"]
             }
         ]
