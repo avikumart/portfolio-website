@@ -22,8 +22,11 @@ st.sidebar.markdown(f"""<a href="{info['Kaggle']}" target="_blank">🔗 Kaggle P
 st.sidebar.markdown(f"""<a href="{info['X']}" target="_blank">🔗 X Profile</a>""", unsafe_allow_html=True)
 
 image = Image.open("images/-mckof1.jpg")
-st.sidebar.image(image, caption="Avikumar Talaviya", width=150)
-
+with st.sidebar:
+    st.image(image, width=200)
+    st.markdown(f"<h1 style='text-align: center; color: #000395;'>{info['Full_Name']}</h1>", unsafe_allow_html=True)
+    st.markdown(f"<h2 style='text-align: center; color: #e0fbfc;'>{info['Intro']}</h2>", unsafe_allow_html=True)
+    
 def load_lottieurl(url: str):
     r = requests.get(url)
     if r.status_code != 200:
