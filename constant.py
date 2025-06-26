@@ -13,7 +13,7 @@ info = {
    "University": "University of Arizona",
    "Degree": "Master of Science in Information Science with Specialization in Machine Learning",
    "Photo":"""<a href="https://www.linkedin.com/in/avi-kumar-talaviya-739153147/"> 
-             <img src="https://mypfp.s3.ap-south-1.amazonaws.com/picofme+(2).png" alt="LinkedIn Profile" width="150" style="border-radius: 50%;">
+             <img src="https://persol-website-artifects.s3.us-east-1.amazonaws.com/profile+pic.jpeg" alt="LinkedIn Profile" width="150" style="border-radius: 50%;">
              </a>
              """,
     "Kaggle": "https://www.kaggle.com/avikumart",
@@ -33,7 +33,7 @@ embed_rss= {
 }
 
 endorsements = {
-    "img1": "https://mypfp.s3.ap-south-1.amazonaws.com/Screenshot+2025-05-28+at+3.34.46%E2%80%AFPM.png",
-    "img2": "https://mypfp.s3.ap-south-1.amazonaws.com/Screenshot+2025-05-28+at+3.35.05%E2%80%AFPM.png",
-    "img3": "https://mypfp.s3.ap-south-1.amazonaws.com/Screenshot+2025-05-28+at+3.59.26%E2%80%AFPM.png"
+    "img1": "https://persol-website-artifects.s3.us-east-1.amazonaws.com/Screenshot+2025-06-26+at+11.15.55%E2%80%AFAM.png",
+    "img2": "https://persol-website-artifects.s3.us-east-1.amazonaws.com/Screenshot+2025-06-26+at+11.16.20%E2%80%AFAM.png",
+    "img3": "https://persol-website-artifects.s3.us-east-1.amazonaws.com/Screenshot+2025-06-26+at+11.16.44%E2%80%AFAM.png"
 }
